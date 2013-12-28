@@ -259,7 +259,7 @@ class RerollFace:
   """
  
 class Card:
- name_dict = {"Assisstant":[2,1,1,"Basic Unit",Assisstant],\
+  name_dict = {"Assisstant":[2,1,1,"Basic Unit",Assisstant],\
     "Basic Quiddity":[0,0,0,"1-2 quiddity",BasicQuiddity],\
     "Portal":[5,4,0,"Cast to draw 1-2 dice",Portal],\
     #spells
@@ -268,8 +268,7 @@ class Card:
     #monsters
     "Strong Scavenging Goblin":[5,3,2,"*:+1 defense per monster in ready area",StrongScavengingGoblin],\
     "Witching Hag":[5,5,3,"+1 Quiddity per creature you destroy with Hag in ready area",WitchingHag],\
-    "Mighty Warrior Of The Quay":[5,4,3,"When summoned, all other warriors die. 1 summon per turn",MightyWarriorOfTheQuay]} 
-  
+    "Mighty Warrior Of The Quay":[5,4,3,"When summoned, all other warriors die. 1 summon per turn",MightyWarriorOfTheQuay]}
   def __init__(self,name):
     self.name = name
     #basics
